@@ -2,9 +2,7 @@ import React from 'react'
 import { CartFill } from 'react-bootstrap-icons'
 import { List } from 'react-bootstrap-icons'
 import { Search } from 'react-bootstrap-icons'
-import { PersonCircle } from 'react-bootstrap-icons'
-
-
+import { PersonCircle } from 'react-bootstrap-icons';
 
 
 const Header = () => {
@@ -27,8 +25,6 @@ const Header = () => {
         </button>
         <div className="container-fluid">
           <nav>
-            
-
             <div>
               <List />
               <PersonCircle/>
