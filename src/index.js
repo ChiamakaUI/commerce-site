@@ -3,13 +3,14 @@ import ReactDOM from 'react-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "react-bootstrap-carousel/dist/react-bootstrap-carousel.css";
 import './index.css';
+import { BrowserRouter as Router } from 'react-router-dom';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+    <Router>
+      <App />
+    </Router>,
   document.getElementById('root')
 );
 
