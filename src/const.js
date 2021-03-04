@@ -1,4 +1,3 @@
-@@ -0,0 +1,46 @@
 import Uneo from "./Images/Uneo.PNG";
 import Unos from "./Images/Unos.PNG";
 import Usp from "./Images/Usp.PNG";
